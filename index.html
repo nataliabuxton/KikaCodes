@@ -90,18 +90,19 @@
 
   <!-- Testimonials -->
   <section id="testimonials">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-slide="true">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" id="carouselExampleControls">
-          <h2>This is the best coding course ever! I loved learning with my furry friends! Meow.</h2>
+        <div class="carousel-item active" id="testimonial-carousel">
+          <h2  class="testimonial-text">This is the best coding course ever! I loved learning with my furry friends! Meow.</h2>
           <img class="testimonial-image-kika" src="images/cat-img.jpg" alt="First Slide">
-          <em class="testname1">Kika-Marie , Oxford<em>
+          <em class="testname1">Kika-Marie , Oxford</em>
         </div>
-        <div class="carousel-item" id="carouselExampleControls">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image-lady" src="images/lady-img.jpg" alt="Second Slide">
-          <em class="testname2">Beverly, Illinois</em>
+        <div class="carousel-item" id="testimonial-carousel">
+          <h2 class="testimonial-text">This is the best coding course ever! I loved learning with my furry friends! Meow.</h2>
+          <img class="testimonial-image-kika" src="images/cat-img.jpg" alt="Second Slide">
+          <em class="testname1">Kika-Marie , Oxford</em>
         </div>
+      </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -132,34 +133,63 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2>A Plan for Every Cat's Needs</h2>
+    <p>Simple and affordable price plans for your and your cat.</p>
 
+<div class="row text-light">
 
-    <h3>Stray Plan</h3>
-    <h2>Free</h2>
-    <p>5 Courses Per Month</p>
-    <p>5 Hours with a tutor</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>House-Cat Plan</h3>
-    <h2>$49 / mo</h2>
-    <p>10 Courses Per Month</p>
-    <p>15 Hours with a tutor</p>
-    <p>Unlimited App Usage (and treats!)</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Pedigree Plan</h3>
-    <h2>$99 / mo</h2>
-    <p>Unlimited access to content</p>
-    <p>Access to premium content</p>
-    <p>Unlimited tutor support</p>
-    <p>Unlimited App Usage (and treats!)</p>
-    <button type="button">Sign Up</button>
-
+<div class="pricing-column col-lg-4 col-md-6" >
+    <div class="card" style="background-color: #FFD1D1; border-color: #FFD1D1";>
+      <div class="card-header">
+        <h3 class="text-dark">Stray Plan</h3>
+      </div>
+      <div class="card-body">
+        <h2>Free</h2>
+        <p class="text-dark">5 Courses Per Month</p>
+        <p class="text-dark">5 Hours with a tutor</p>
+        <p class="text-dark">Unlimited App Usage</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-outline-light" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="pricing-column col-lg-4 col-md-6">
+    <div class="card" style="background-color: #FFD1D1; border-color: #FFD1D1;">
+      <div class="card-header">
+        <h3 class="text-dark">House-Cat Plan</h3>
+      </div>
+      <div class="card-body">
+        <h2>£39.99</h2>
+        <p class="text-dark">10 Courses Per Month</p>
+        <p class="text-dark">15 Hours with a tutor</p>
+        <p class="text-dark">Unlimited App Usage</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-outline-light" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="pricing-column col-lg-4 col-md-12">
+    <div class="card" style="background-color: #FFD1D1; border-color: #FFD1D1;">
+      <div class="card-header">
+        <h3 class="text-dark">Pedigree Plan</h3>
+      </div>
+      <div class="card-body">
+        <h2>£99.99</h2>
+        <p class="text-dark">Unlimited access to content</p>
+        <p class="text-dark">Unlimited tutor support</p>
+        <p class="text-dark">Unlimited App Usage</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-outline-light" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
   </section>
 
 
@@ -167,10 +197,11 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h3 class="ctatext">Teach your cat to code TODAY.</h3>
+    <div class="ctabtn">
+    <button id="downloadbtnfoot" class="btn btn-outline-light"><span class="fa-brands fa-apple"></span> Download</button>
+    <button id="downloadbtnfoot" class="btn btn-outline-light" type="button"><span class="fa-brands fa-android"></span> Download</button>
+    </div>
   </section>
 
 
@@ -178,11 +209,15 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <p class="copyright">© Copyright KikaCodes</p>
 
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

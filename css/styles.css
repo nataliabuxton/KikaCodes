@@ -8,7 +8,7 @@ body{
     padding: 0 0 4.5rem;
 }
 
-.navbar-brand {
+.navbar-brand{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.5rem;
     font-weight: bold;
@@ -29,10 +29,9 @@ body{
 /* Top Section */
 
 .maincat {
-    width: 80%;
-    padding-left: 0px;
-    padding-top: 40px;
-    padding-bottom: 0;
+    width: min-content;
+    position: absolute;
+    right: 5%;
 }
 
 h1{
@@ -42,7 +41,7 @@ h1{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 7% 10%;
 }
 #downloadbtn{
     border-radius: 0%;
@@ -61,7 +60,9 @@ p{
 }
 #features{
     background-color: #ffffff;
-    padding: 7% 7% 7% 7%;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
 }
 .features-box{
     text-align: center;
@@ -97,16 +98,18 @@ p{
 #testimonials {
  padding: 7% 7% 7% 7%;
  text-align: center;
- background-color: #ffae8b73;
+ background-color: #ffbcbc;
  color: #ffffff;
 }
-h2 {
+
+.testimonial-text{
+    font-style: normal;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
 }
 #press{
-    background-color: #ffae8b73;
+    background-color: #FFBCBC;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -116,4 +119,67 @@ h2 {
 }
 .testname1{
     font-size: 1.3em;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    font-family: monospace;
+    font-style: normal;
+}
+
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/* Call To Action */
+
+#cta{
+    background-color: #FFBCBC;
+    padding: 5% 3%;
+}
+.ctatext{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.ctabtn{
+        border-radius: 0%;
+        margin-left: 750px;
+        align-items: center;
+        justify-content: center;
+}
+
+
+/* Footer */
+
+.copyright{
+    text-align: center;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 988px) {
+    .maincat{
+        position: static;
+        box-align: center;
+    }
+    .row{
+        align-items: center;
+        text-align: center;
+    }
+    .ctabtn{
+        border-radius: 0%;
+        margin-left: 335px;
+        align-items: center;
+        justify-content: center;
+    }
 }
