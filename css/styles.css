@@ -183,3 +183,12 @@ p{
         justify-content: center;
     }
 }
+
+@media (max-width: 1436px){
+    .ctabtn{
+        border-radius: 0%;
+        margin-left: 325px;
+        align-items: center;
+        justify-content: center;
+    }
+}
