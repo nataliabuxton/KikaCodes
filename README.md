@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/nataliabuxton/kikacodes.github.io">
-    <img src="images/iphone6" alt="Logo" width="80" height="80">
+    <img src="images/iphone6.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Kika Codes</h3>
