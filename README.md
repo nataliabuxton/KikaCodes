@@ -20,9 +20,9 @@
   </p>
 </div>
 <!-- CONTACT -->
-## Contact
+- ME
 
-Your Name - Natalia - (see CV for email! & contact!)
+Natalia - (see CV for email! & contact!)
 
 Project Link: [https://nataliabuxton.github.io/kikacodes.github.io/](https://nataliabuxton.github.io/kikacodes.github.io/)
 
