@@ -182,16 +182,14 @@ p{
 
 .ctabtn{
         border-radius: 0%;
-        /* margin-top: 5px;
-        margin-bottom: 5px;*/
-        margin-left: 415px;
-        margin-right: 300px;
+        margin-left: 300px;
         align-items: center;
         justify-content: center;
 }
 #downloadbtnfoot {
     border-radius: 0;
     padding: 25px 100px;
+
 }
 
 /* Footer */
