@@ -1,15 +1,26 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Silkscreen', cursive;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Silkscreen', cursive;
+
+}
+
+p{
+    font-family: 'Silkscreen', cursive;
+
 }
 
 /* Navigation Bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 6rem;
 }
 
 .navbar-brand{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Silkscreen', cursive;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -21,7 +32,7 @@ body{
 }
 
 #title{
-    background-color: #ffbcbc;
+    background-color: #FFBCBC;
     color: white;
     margin-bottom: -82px;
 }
@@ -34,10 +45,18 @@ body{
     right: 5%;
 }
 
-h1{
-    font-family: monospace;
+.bigheading {
+    font-family: 'Silkscreen', cursive;
     size: 3.5rem;
     line-height: 1.5;
+    color: #0d0b0b;
+}
+
+.smallheading{
+    font-family: 'Silkscreen', cursive;
+    size: 2rem;
+    line-height: 1.5;
+    color: #0d0b0b;
 }
 
 .container-fluid{
@@ -50,48 +69,50 @@ h1{
 }
 
 /* Features Section */
-h3{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: #cbc9c9;
-}
-p{
-    color: #8f8f8f;
-}
 #features{
-    background-color: #ffffff;
-    padding: 7% 15%;
+    background-color: #ffebeb;
+    padding: 1% 5%;
     position: relative;
     z-index: 1;
 }
+
+.featuresbigtxt{
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    color: #0d0b0b;
+}
+.featuressmalltxt{
+    color: #0d0b0b;
+}
+
 .features-box{
     text-align: center;
     padding: 5%;  
 }
 .icon{
-    color: #ffae8b73;
+    color: #FFBCBC;
     margin-bottom: 1rem;
 }
 .icon:hover{
-    color: #FFBCBC;
-}
-
-/* Images */
-
-.testimonial-image-kika{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 20px;
+    color: #0d0b0b;
 }
 
 
-.testimonial-image-lady{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 20px;
+/* Press Section */
+
+#press{
+    background-color: #ffebeb;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
 }
+.press-logo{
+    width: 5%;
+    margin: 20px 20px 50px;
+    padding: 10px 15px;
+}
+
 
 /* Testimonial Section */
 
@@ -107,55 +128,71 @@ p{
     font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
+    color: #0d0b0b;
 }
-#press{
-    background-color: #FFBCBC;
-    text-align: center;
-    padding-bottom: 3%;
-}
-.press-logo{
-    width: 10%;
-    margin: 20px 20px 50px;
-}
+
 .testname1{
     font-size: 1.3em;
 }
+.testimonial-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
 
+
+.testimonial-image-lady{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
 
 /* Pricing Section */
 
 #pricing {
-    padding: 100px;
+    padding: 20px;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Silkscreen', cursive;
     font-style: normal;
+    background-color: #ffebeb;
+    color: #0d0b0b;
 }
 
 
 .pricing-column{
-    padding: 3% 2%;
+    padding: 2% 2%;
     text-align: center;
 }
 
 /* Call To Action */
 
 #cta{
-    background-color: #FFBCBC;
+    background-color: #ffbcbc;
     padding: 5% 3%;
 }
 .ctatext{
     text-align: center;
     color: #ffffff;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    padding-top: 0;
+    font-size: 3.5rem;
 }
 
 .ctabtn{
         border-radius: 0%;
-        margin-left: 600px;
+        /* margin-top: 5px;
+        margin-bottom: 5px;*/
+        margin-left: 415px;
+        margin-right: 300px;
         align-items: center;
         justify-content: center;
 }
-
+#downloadbtnfoot {
+    border-radius: 0;
+    padding: 25px 100px;
+}
 
 /* Footer */
 
@@ -163,7 +200,11 @@ p{
     text-align: center;
 }
 
-
+#footer{
+    background-color: #FFBCBC;
+    padding: 0 10px;
+    margin-bottom: -2rem;
+}
 
 /* Media Query */
 
